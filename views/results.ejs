@@ -1,24 +1,40 @@
 <%- include('./partials/header.ejs') %>
-<div class="header">
-  <h1 class="results-header">Results</h1>
-  <p class="earnings">
-    Over the next <%= yearsAtCurrentJob %> years you will earn a minimum of <%=
-    currentMoney %> at your current job.
-  </p>
-  <p class="earnings">
-    Over the next <%= yearsAtCurrentJob %> years you will earn <%= softwareMoney
-    %> as a <%=desiredCareer %>.
-  </p>
-  <p class="earnings">
-    As a <%=desiredCareer %> you would earn <%= difference %> more.
-  </p>
-</div>
-<div class="savings">
-  <h2 class="head-saving">How much saved money would you have generated?</h2>
-  <p>
-    As a <%=desiredCareer %> you would have saved <%= softwareMoneySaved %> as
-    opposed to <%= jobMoneySaved %>.
-  </p>
+<div class="wrapper">
+  <h1 class="results-head">Here are your Results</h1>
+  <div class="return-statement">
+    <% if (currentMoney < softwareMoney) { %>
+    <h4>
+      Based on your entered information you should decide to become a
+      <%=desiredCareer %>
+    </h4>
+    <% } else { %>
+    <h4>
+      Do not waste your time pursuring a career as a <%=desiredCareer %> , you
+      are better off staying at your current job
+    </h4>
+    <% } %>
+  </div>
+  <div class="wrapper">
+    <h2 class="results-header">Earned Income</h2>
+    <p class="earnings">
+      Over the next <%= yearsAtCurrentJob %> years you will earn a minimum of
+      <%= currentMoney %> at your current job.
+    </p>
+    <p class="earnings">
+      Over the next <%= yearsAtCurrentJob %> years, you will earn <%=
+      softwareMoney %> as a <%=desiredCareer %>.
+    </p>
+    <p class="earnings">
+      As a <%=desiredCareer %> you would earn <%= difference %> more.
+    </p>
+  </div>
+  <div class="wrapper">
+    <h2 class="head-saving">How much saved money would you have generated?</h2>
+    <p class="earnings">
+      As a <%=desiredCareer %> you would have saved <%= softwareMoneySaved %> as
+      opposed to <%= jobMoneySaved %>.
+    </p>
+  </div>
 </div>
 
 <%- include('./partials/footer.ejs') %>
