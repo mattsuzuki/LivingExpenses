@@ -9,8 +9,9 @@
    </a>
 
 </div>
-
+<div align="center">
 <h1>:money_with_wings: Job to Career :money_with_wings:</h1>
+</div>
 <p>Job to Career is a simple calculator which individuals can use to determine earnings and prospective earning based off of income. </p>
 
 ## :computer: Technologies Used
