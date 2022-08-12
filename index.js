@@ -1,6 +1,7 @@
 // Dependencies
 var express = require("express");
 var bodyParser = require("body-parser");
+var Info = require("./models/info");
 
 // Create app
 var app = express();
@@ -14,6 +15,10 @@ app.use(
   })
 );
 app.use(bodyParser.json());
+
+//config db
+require("dotenv").config();
+require("./config/database");
 
 // Add routes
 app.get("/", function (req, res) {
