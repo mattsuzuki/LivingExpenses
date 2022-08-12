@@ -12,7 +12,7 @@
 <div align="center">
 <h1>:money_with_wings: Job to Career :money_with_wings:</h1>
 </div>
-<p>Job to Career is a simple calculator which individuals can use to determine earnings and prospective earning based off of income. </p>
+<p>Job to Career is an application which will help empower individuals with tools to decide if they would like to transition into a new career.  </p>
 
 ## :computer: Technologies Used
 
