@@ -25,7 +25,6 @@ app.post("/calculate", function (req, res) {
     currentMonthlySalary,
     yearsAtCurrentJob,
     currentLivingExpenses,
-    currentTimeSpentWorking,
     expectedMonthlySalary,
   } = req.body;
 

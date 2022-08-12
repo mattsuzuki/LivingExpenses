@@ -1,35 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>What to become a software engineer?</title>
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-  <body>
-    <div class="header">
-      <h1 class="results-header">Results</h1>
-      <p class="earnings">
-        Over the next <%= yearsAtCurrentJob %> years you will earn a minimum of
-        <%= currentMoney %> at your current job.
-      </p>
-      <p class="earnings">
-        Over the next <%= yearsAtCurrentJob %> years you will earn <%=
-        softwareMoney %> at your software engineering job.
-      </p>
-      <p class="earnings">
-        As a software engineer you would earn <%= difference %> more.
-      </p>
-    </div>
-    <div class="savings">
-      <h2 class="head-saving">
-        How much saved money would you have generated?
-      </h2>
-      <p>
-        As a software engineer you would have saved <%= softwareMoneySaved %> as
-        opposed to <%= jobMoneySaved %>.
-      </p>
-    </div>
-  </body>
-</html>
+<%- include('./partials/header.ejs') %>
+<div class="header">
+  <h1 class="results-header">Results</h1>
+  <p class="earnings">
+    Over the next <%= yearsAtCurrentJob %> years you will earn a minimum of <%=
+    currentMoney %> at your current job.
+  </p>
+  <p class="earnings">
+    Over the next <%= yearsAtCurrentJob %> years you will earn <%= softwareMoney
+    %> at your software engineering job.
+  </p>
+  <p class="earnings">
+    As a software engineer you would earn <%= difference %> more.
+  </p>
+</div>
+<div class="savings">
+  <h2 class="head-saving">How much saved money would you have generated?</h2>
+  <p>
+    As a software engineer you would have saved <%= softwareMoneySaved %> as
+    opposed to <%= jobMoneySaved %>.
+  </p>
+</div>
+<%- include('./partials/footer.ejs') %>
