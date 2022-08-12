@@ -24,6 +24,12 @@ app.get("/about", function (req, res) {
   res.render("about");
 });
 
+app.get("/resources", function (req, res) {
+  res.render("resources");
+});
+app.get("/jobs", function (req, res) {
+  res.render("jobs");
+});
 app.post("/calculate", function (req, res) {
   const {
     currentMonthlySalary,
