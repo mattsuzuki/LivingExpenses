@@ -101,3 +101,34 @@ input {
 .savings {
   text-align: center;
 }
+/* Navigation  */
+
+.navbar {
+  display: flex;
+  background-color: black;
+  padding: 20px;
+  align-items: baseline;
+}
+
+.navbar h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul a {
+  display: flex;
+  color: white;
+  margin-left: 15px;
+
+  text-decoration: none;
+}
+
+.navbar li {
+  color: white;
+  list-style: none;
+}
