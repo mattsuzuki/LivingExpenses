@@ -26,6 +26,7 @@ app.post("/calculate", function (req, res) {
     yearsAtCurrentJob,
     currentLivingExpenses,
     expectedMonthlySalary,
+    desiredCareer,
   } = req.body;
 
   // Calculate the results
@@ -58,6 +59,7 @@ app.post("/calculate", function (req, res) {
     softwareMoneySaved,
     jobMoneySaved,
     difference,
+    desiredCareer,
   });
 });
 
