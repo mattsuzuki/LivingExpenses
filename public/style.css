@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #111;
+}
+
+input {
+  display: block;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  outline: none;
+  border: none;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.form-flex {
+  display: flex;
+  gap: 40px;
+}
+
+.form-left,
+.form-right {
+  flex: 1;
+}
+
+.field + .field {
+  margin-top: 20px;
+}
+
+.field label {
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.field input {
+  border: 1px solid #ddd;
+  padding: 0 24px;
+  line-height: 52px;
+  border-radius: 12px;
+  color: #111;
+}
+
+.button {
+  display: block;
+  width: 300px;
+  text-align: center;
+  line-height: 54px;
+  color: white;
+  background: #111;
+  margin: 40px auto 0;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.results-header {
+  padding-top: 50px;
+}
+
+.width {
+  max-width: 90%;
+}
+
+.earnings {
+  padding: 10px 0px;
+  margin: 0 auto;
+  width: calc(100% - 40px);
+}
+
+.head-saving {
+  padding-bottom: 20px;
+}
+
+.savings {
+  text-align: center;
+}

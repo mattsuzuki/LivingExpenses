@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What to become a software engineer?</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Want to become a software engineer?</h1>
+        <h2>Make a decision Based on Logic</h2>
+      </header>
+
+      <form class="form" action="/calculate" method="POST">
+        <div class="field">
+          <label for="current-monthly-salary"
+            >Current Monthly Salary at Current Job</label
+          >
+          <input
+            name="currentMonthlySalary"
+            id="current-monthly-salary"
+            type="text"
+            placeholder="example ...3500"
+          />
+        </div>
+
+        <div class="field">
+          <label for="years-at-current-job">Years Worked</label>
+          <input
+            name="yearsAtCurrentJob"
+            id="years-at-current-job"
+            type="text"
+          />
+        </div>
+
+        <div class="field">
+          <label for="current-living-expenses">Current Living Expenses</label>
+          <input
+            name="currentLivingExpenses"
+            id="current-living-expenses"
+            type="text"
+          />
+        </div>
+
+        <div class="field">
+          <label for="current-time-spent-working"
+            >Current Time Spent Working
+          </label>
+          <input
+            name="currentTimeSpentWorking"
+            for="current-time-spent-working"
+            type="text"
+          />
+        </div>
+
+        <div class="field">
+          <label for="expected-monthly-salary"
+            >Expected Monthly Salary As a Software Engineer</label
+          >
+          <input
+            name="expectedMonthlySalary"
+            for="expected-monthly-salary"
+            type="text"
+          />
+        </div>
+
+        <button class="button" type="submit">Calculate</button>
+      </form>
+    </div>
+  </body>
+</html>
