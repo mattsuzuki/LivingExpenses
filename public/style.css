@@ -224,3 +224,7 @@ input {
   padding-left: 30px;
   color: white;
 }
+
+.content-para {
+  line-height: 2px;
+}
