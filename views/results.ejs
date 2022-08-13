@@ -4,7 +4,7 @@
   <div class="return-statement">
     <% if (currentMoney < softwareMoney) { %>
     <h4>
-      Based on your entered information you should decide to become a
+      Based on the information you provided, you should purse your career as a
       <%=desiredCareer %>
     </h4>
     <% } else { %>
@@ -14,27 +14,25 @@
     </h4>
     <% } %>
   </div>
-  <div class="wrapper">
-    <h2 class="results-header">Earned Income</h2>
-    <p class="earnings">
-      Over the next <%= yearsAtCurrentJob %> years you will earn a minimum of
-      <%= currentMoney %> at your current job.
-    </p>
-    <p class="earnings">
-      Over the next <%= yearsAtCurrentJob %> years, you will earn <%=
-      softwareMoney %> as a <%=desiredCareer %>.
-    </p>
-    <p class="earnings">
-      As a <%=desiredCareer %> you would earn <%= difference %> more.
-    </p>
-  </div>
-  <div class="wrapper">
-    <h2 class="head-saving">How much saved money would you have generated?</h2>
-    <p class="earnings">
-      As a <%=desiredCareer %> you would have saved <%= softwareMoneySaved %> as
-      opposed to <%= jobMoneySaved %>.
-    </p>
-  </div>
+
+  <h2 class="results-header">Earned Income</h2>
+  <p class="earnings">
+    Over the next <%= yearsAtCurrentJob %> years you will earn a minimum of <%=
+    currentMoney %> at your current job.
+  </p>
+  <p class="earnings">
+    Over the next <%= yearsAtCurrentJob %> years, you will earn <%=
+    softwareMoney %> as a <%=desiredCareer %>.
+  </p>
+  <p class="earnings">
+    As a <%=desiredCareer %> you would earn <%= difference %> more.
+  </p>
+
+  <h2 class="head-saving">How much saved money would you have generated?</h2>
+  <p class="earnings">
+    As a <%=desiredCareer %> you would have saved <%= softwareMoneySaved %> as
+    opposed to <%= jobMoneySaved %>.
+  </p>
 </div>
 
 <%- include('./partials/footer.ejs') %>

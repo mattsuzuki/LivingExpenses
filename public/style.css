@@ -37,7 +37,7 @@ input {
 }
 
 .header h1 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .form-flex {
@@ -75,7 +75,20 @@ input {
   text-align: center;
   line-height: 54px;
   color: white;
-  background: #111;
+  background: #090979;
+  margin: 40px auto 0;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.button:hover {
+  display: block;
+  width: 300px;
+  text-align: center;
+  line-height: 54px;
+  color: white;
+  background: #08beef;
   margin: 40px auto 0;
   border-radius: 12px;
   text-transform: uppercase;
@@ -85,6 +98,11 @@ input {
 
 .width {
   max-width: 90%;
+}
+
+.main {
+  font-family: "Allerta Stencil", sans-serif;
+  font-family: "Mukta", sans-serif;
 }
 
 /* Results */
@@ -109,16 +127,29 @@ input {
 }
 
 .head-saving {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 /* Navigation  */
 
+#logo {
+  font-family: "Allerta Stencil", sans-serif;
+  color: white;
+}
+
 .navbar {
   display: flex;
-  background-color: black;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   padding: 20px;
   align-items: baseline;
+  font-family: "Allerta Stencil", sans-serif;
 }
 
 .navbar h1 a {
@@ -144,16 +175,33 @@ input {
   color: white;
   list-style: none;
 }
+@media (max-width: 800px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.return-statement {
+  padding-bottom: 20px;
+}
 
 /* Footer */
 
 .footer-style {
   display: flex;
-  background-color: black;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   padding: 20px;
   align-items: baseline;
   justify-content: center;
   margin-top: auto;
+  font-family: "Allerta Stencil", sans-serif;
 }
 
 .footer-style ul {
