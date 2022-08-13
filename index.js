@@ -2,6 +2,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var Info = require("./models/info");
+const { db } = require("./models/info");
 
 // Create app
 var app = express();
@@ -35,14 +36,24 @@ app.get("/resources", function (req, res) {
 app.get("/jobs", function (req, res) {
   res.render("jobs");
 });
-app.post("/calculate", function (req, res) {
+
+app.post("/calculate", async function (req, res) {
   const {
     currentMonthlySalary,
     yearsAtCurrentJob,
     currentLivingExpenses,
     expectedMonthlySalary,
     desiredCareer,
+    emailAddress,
   } = req.body;
+  await Info.create({
+    currentMonthlySalary,
+    yearsAtCurrentJob,
+    currentLivingExpenses,
+    expectedMonthlySalary,
+    desiredCareer,
+    email: emailAddress,
+  });
 
   // Calculate the results
   var currentMoneyRaw = currentMonthlySalary * (yearsAtCurrentJob * 12); // 3600000
