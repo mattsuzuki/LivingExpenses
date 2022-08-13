@@ -90,4 +90,4 @@ app.post("/calculate", async function (req, res) {
 });
 
 // Start server
-app.listen(3000);
+app.listen(process.env.PORT);
