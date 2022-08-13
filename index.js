@@ -81,7 +81,9 @@ app.post("/calculate", async function (req, res) {
   res.render("results", {
     yearsAtCurrentJob,
     currentMoney,
+    currentMoneyRaw,
     softwareMoney,
+    softwareMoneyRaw,
     softwareMoneySaved,
     jobMoneySaved,
     difference,
