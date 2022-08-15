@@ -1,6 +1,6 @@
 <div align="center">
    <h1> Career Switcher </h1>
-   <h3><a href="https://matthewsuzuki.com">Coming Soon</a></h3>
+   <h3><a href="https://career-switcher.herokuapp.com/">Try it Out</a></h3>
    <h5> Matthew Suzuki </h5>                             
  
    </a>    
@@ -17,13 +17,13 @@
 <details>
 <summary> :gear: Functionality</summary>
 
-| Description                               | Screenshot                |
-| ----------------------------------------- | ------------------------- |
+| Description                               | Screenshot                                            |
+| ----------------------------------------- | ----------------------------------------------------- |
 | <h3 align="center">Landing Page</h3>      | <img src="[https://imgur.com/a/RwGxMGT" width="700"/> |
-| <h3 align="center">Career Calculator</h3> | <img src="" width="700"/> |
-| <h3 align="center">Results page</h3>      | <img src="" width="700"/> |
-| <h3 align="center">About Page</h3>        | <img src="" width="700"/> |
-| <h3 align="center">Resources Page</h3>    | <img src="" width="700"/> |
+| <h3 align="center">Career Calculator</h3> | <img src="" width="700"/>                             |
+| <h3 align="center">Results page</h3>      | <img src="" width="700"/>                             |
+| <h3 align="center">About Page</h3>        | <img src="" width="700"/>                             |
+| <h3 align="center">Resources Page</h3>    | <img src="" width="700"/>                             |
 
 </details>
 
