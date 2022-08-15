@@ -1,5 +1,5 @@
 <div align="center">
-   <h1> Job to Career </h1>
+   <h1> Career Switcher </h1>
    <h3><a href="https://matthewsuzuki.com">Coming Soon</a></h3>
    <h5> Matthew Suzuki </h5>                             
  
@@ -10,7 +10,7 @@
 
 </div>
 <div align="center">
-<h1>:money_with_wings: Job to Career :money_with_wings:</h1>
+<h1>:money_with_wings: Career Switcher :money_with_wings:</h1>
 </div>
 <p>Job to Career is an application which will help empower individuals with tools to decide if they would like to transition into a new career.  </p>
 
