@@ -19,7 +19,7 @@
 
 | Description                               | Screenshot                |
 | ----------------------------------------- | ------------------------- |
-| <h3 align="center">Landing Page</h3>      | <img src="[https://imgur.com/a/RwGxMGT](https://imgur.com/gallery/RwGxMGT)" width="700"/> |
+| <h3 align="center">Landing Page</h3>      | <img src="[https://imgur.com/a/RwGxMGT" width="700"/> |
 | <h3 align="center">Career Calculator</h3> | <img src="" width="700"/> |
 | <h3 align="center">Results page</h3>      | <img src="" width="700"/> |
 | <h3 align="center">About Page</h3>        | <img src="" width="700"/> |
